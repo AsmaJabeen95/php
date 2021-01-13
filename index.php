@@ -20,7 +20,7 @@
 
 	<div class="container">
 		<div class="row mt-5">			
-		<div class="col-lg-6 ">
+		<div class="col-lg-6 col-md-6 col-sm-12 m-auto ">
 			<div class="side">
 				
 			<h1 class="sideh">Welcome to Our Institute</h1>
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 
-		<div class="col-lg-6">
+		<div class="col-lg-6 col-md-6 col-sm-12 m-auto">
 		<h1 class="text-center">Registration Form</h1>
 		<div class="container form">
 		<form action="registration.php" method="POST">

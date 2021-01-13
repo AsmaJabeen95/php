@@ -13,7 +13,7 @@
     padding: 40px;
 }
 .side{ 
-   border-right: 1px solid black;
+    border-right: 1px solid black;
     margin: 150px auto; 
     padding-top: 85px;
     border-radius: 8%;
@@ -49,6 +49,22 @@
 .fa-trash{
 color: red;
 }
+
+@media(max-width: 768px){
+    .side{ 
+    margin: 50px auto; 
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sideh::after{
+    width: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
+
+
     </style>
 </head>
 <body>
